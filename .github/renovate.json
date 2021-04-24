@@ -3,13 +3,13 @@
     "labels": [
         "dependencies"
     ],
-    "rangeStrategy": "bump",
+    "rangeStrategy": "pin",
     "packageRules": [
         {
             "matchPackagePatterns": [
-                "moment"
+                "@online-directory/shared-code"
             ],
-            "groupName": "moment",
+            "groupName": "online-directory",
             "additionalBranchPrefix": ""
         }
     ],
