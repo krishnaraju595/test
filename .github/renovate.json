@@ -4,5 +4,5 @@
         "dependencies"
     ],
     "packageRules": [],
-    "separateMinorPatch": true
+    "separateMajorMinor": false
 }
