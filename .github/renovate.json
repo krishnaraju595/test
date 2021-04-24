@@ -3,6 +3,14 @@
     "labels": [
         "dependencies"
     ],
-    "packageRules": [],
+    "packageRules": [
+        {
+            "matchUpdateTypes": [
+                "major",
+                "patch",
+                "minor"
+            ]
+        }
+    ],
     "separateMinorPatch": true
 }
