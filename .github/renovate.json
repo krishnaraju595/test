@@ -13,5 +13,5 @@
             "additionalBranchPrefix": ""
         }
     ],
-    "separateMajorMinor": false
+    "separateMajorMinor": true
 }
