@@ -6,11 +6,10 @@
     "packageRules": [
         {
             "matchPackagePatterns": [
-                "moment"
+                "csv-parse"
             ],
-            "groupName": "moment",
-            "additionalBranchPrefix": "New"
+            "groupName": "csv-parse",
+            "additionalBranchPrefix": ""
         }
-    ],
-    "separateMajorMinor": false
+    ]
 }
