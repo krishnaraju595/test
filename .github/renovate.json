@@ -1,15 +1,14 @@
 {
-    "groupName": "all",
     "labels": [
         "dependencies"
     ],
     "packageRules": [
         {
             "matchUpdateTypes": [
-                "major",
                 "patch",
                 "minor"
-            ]
+            ],
+            "groupName": "devDependencies (non-major)"
         }
     ],
     "separateMinorPatch": true
