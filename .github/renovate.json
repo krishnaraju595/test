@@ -1,15 +1,30 @@
 {
-    "groupName": "all",
-    "labels": [
-        "dependencies"
-    ],
     "packageRules": [
         {
-            "matchPackagePatterns": [
-                "csv-parse"
+            "updateTypes": [
+                "major"
             ],
-            "groupName": "csv-parse",
-            "additionalBranchPrefix": ""
+            "addLabels": [
+                "SemVer Major"
+            ]
+        },
+        {
+            "updateTypes": [
+                "minor"
+            ],
+            "addLabels": [
+                "SemVer Minor"
+            ]
+        },
+        {
+            "updateTypes": [
+                "patch",
+                "digest",
+                "bump"
+            ],
+            "addLabels": [
+                "SemVer Patch"
+            ]
         }
     ]
 }
