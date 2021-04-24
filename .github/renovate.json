@@ -6,8 +6,7 @@
                 "morgan"
             ],
             "groupName": "morgan",
-            "additionalBranchPrefix": ""
+            "additionalBranchPrefix": "WWWWW"
         }
-    ],
-    "separateMajorMinor": true
+    ]
 }
