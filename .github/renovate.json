@@ -1,15 +1,11 @@
 {
-    "groupName": "all",
-    "labels": [
-        "dependencies"
-    ],
     "rangeStrategy": "pin",
     "packageRules": [
         {
             "matchPackagePatterns": [
-                "@online-directory/shared-code"
+                "morgan"
             ],
-            "groupName": "online-directory",
+            "groupName": "morgan",
             "additionalBranchPrefix": ""
         }
     ],
