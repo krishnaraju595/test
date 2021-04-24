@@ -1,11 +1,14 @@
 {
     "packageRules": [
         {
+            "matchDepTypes": [
+                "dependencies"
+            ],
             "matchUpdateTypes": [
                 "patch",
                 "minor"
             ],
-            "groupName": "devDependencies (non-major)"
+            "groupName": "Dependencies (non-major)"
         }
     ]
 }
