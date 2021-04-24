@@ -3,6 +3,14 @@
     "labels": [
         "dependencies"
     ],
-    "packageRules": [],
+    "packageRules": [
+        {
+            "matchPackagePatterns": [
+                "moment"
+            ],
+            "groupName": "moment",
+            "additionalBranchPrefix": "New"
+        }
+    ],
     "separateMajorMinor": false
 }
