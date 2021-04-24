@@ -1,14 +1,8 @@
 {
-    "packageRules": [
-        {
-            "matchDepTypes": [
-                "dependencies"
-            ],
-            "matchUpdateTypes": [
-                "patch",
-                "minor"
-            ],
-            "groupName": "Dependencies (non-major)"
-        }
-    ]
+    "groupName": "all",
+    "labels": [
+        "dependencies"
+    ],
+    "packageRules": [],
+    "separateMinorPatch": true
 }
